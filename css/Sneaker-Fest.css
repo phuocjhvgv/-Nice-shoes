@@ -1,0 +1,43 @@
+
+.titleheader h1{
+  font-family: 'Times New Roman', serif;
+  font-size: 72px;
+  padding: 20px 100px 10px 100px;
+}
+.titleheader h3{
+  border-bottom: #000 3px solid;
+  height: 1px;
+  margin-bottom: 0px;
+}
+.titleheader h4{
+  border-bottom: #000 2px dashed;
+  height: 1px;
+  margin-bottom: 0px;
+  
+}
+@media only screen and (max-width: 1200px){
+  .titleheader h1{
+    font-family: 'Times New Roman', serif;
+    font-size: 64px;
+    padding: 20px 70px 10px 70px;
+  }
+}
+@media only screen and (max-width: 992px){
+  .titleheader h1{
+    font-family: 'Times New Roman', serif;
+    font-size: 56px;
+    padding: 10px 0;
+  }
+}
+@media only screen and (max-width: 768px){
+  .titleheader h1{
+    font-family: 'Times New Roman', serif;
+    font-size: 40px;
+    padding: 10px 0;
+  }
+}
+.limited{
+  padding: 30px 0;
+  border-top: #808080 1px solid;
+  border-bottom: #808080 1px solid;
+}

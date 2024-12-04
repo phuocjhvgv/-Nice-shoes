@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ajax - Hoàng Sang</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="./Img/Assets/SangLogo.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script> -->
+    <!-- Có gói jquery vô thì bị lỗi -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="./css/Product-Common.css">
+    <script src="./js/loadpage.js">
+      $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        });
+    </script>
+</head>
+<body>
+<!-- Làm thế nào để sử lý phần đầu và chân trang, phần nội dung hay trùng lặp nhất -->
+<!-- Sử dụng Ajax để sử lý phần này nhé -->
+<!-- Tạo 2 đối tượng cần tải gói ajax để thay thế -->
+
+<div id="header"></div>
+<div class="container">
+  <!-- <div class="row">
+    <div class="col-md-4 col-lg-3 col-sm-6  col-6">
+      <div class="product-common mt-2">
+        <a href="Bitis-Hunter-X.html">
+          <span class="sticker">New</span>
+          <img src="./Img/Assets/biti1.1.jpg" class="w-100 imgproduct">
+          <img src="./Img/Assets/biti1.2.jpg" alt="" class="w-100 imghovertop">
+          <div class="d-flex justify-content-between">
+            <div class="flex-grow-1 category">Adidas</div>
+            <div class="pr-1">
+              <i class="far fa-star tick"></i>
+              <i class="far fa-star tick"></i>
+              <i class="far fa-star tick"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+          <hr class="category">
+          <div class="product-name">
+            <h4>Adidas B52</h4>
+          </div>
+          <div class="price-box">
+            <span class="new-price">$71.80</span>
+            <span class="old-price">$77.22</span>
+            <span class="discount-percentage">-7%</span>
+          </div>
+          
+        </a>
+        <div class="add-actions-link text-center">
+          <button type="button" class="btn btn-light">Mua Ngay</button>
+          <button type="button" class="btn btn-light" onclick="window.location.href='Adidas.html'"><i class="far fa-eye"></i></button>
+        </div>
+      </div>
+    </div> -->
+  
+  </div>
+</div>
+<form action="">
+  <div class="container">
+    <label for="Giohang">Giỏ Hàng Của Bạn</label>
+    
+    <table class="table table-bordered">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Tên Sản Phẩm</th>
+          <th scope="col">Số Lượng</th>
+          <th scope="col">Giá</th>
+          <th scope="col">Thành Tiền</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Giày Adidas</th>
+          <td>10</td>
+          <td>100K</td>
+          <td>1Tr</td>
+        </tr>
+        <tr>
+          <th scope="row">Giày Hunter</th>
+          <td>2</td>
+          <td>500K</td>
+          <td>1Tr</td>
+        </tr>
+        <tr>
+          <th scope="row" colspan="3">Tổng</th>
+          <td>2Tr</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</form>
+
+<div id="footer"></div>
+<!-- Sử lý loadpage.js thôi nào! -->
+<!-- Chạy thôi nào -->
+
+
+</body>
+</html>

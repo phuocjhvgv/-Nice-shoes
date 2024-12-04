@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+}
+h2{
+    font-family: 'Anton', sans-serif;
+}
+.col-4 a{
+    color: #000;
+    font-size: 45px;
+}
